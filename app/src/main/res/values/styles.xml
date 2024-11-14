@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CalculatorButtonStyle">
+        <item name="android:minWidth">125sp</item>
+        <item name="android:minHeight">125sp</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:layout_gravity">fill_vertical</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <style name="CalculatorBorderButtonStyle">
+        <item name="android:layout_width">125sp</item>
+        <item name="android:layout_height">125sp</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:layout_gravity">fill_horizontal</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="CalculatorResultStyle">
+        <item name="android:textSize">48sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">70sp</item>
+        <item name="android:layout_height">170sp</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
